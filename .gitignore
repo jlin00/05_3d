@@ -4,6 +4,7 @@
 *.jpg
 *.jpeg
 *.gif
+myscript
 
 #python pycs
 *.pyc
