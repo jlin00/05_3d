@@ -91,7 +91,6 @@ struct matrix * generate_sphere(double cx, double cy, double cz,
       y = r * sin(circ) * cos(rot) + cy;
       z = r * sin(circ) * sin(rot) + cz;
       add_point(points, x, y, z);
-      points->lastcol++;
     }
   }
   return points;
@@ -149,7 +148,6 @@ struct matrix * generate_torus( double cx, double cy, double cz,
       y =  r1 * sin(circ) + cy;
       z =  -sin(rot) * (r1 * cos(circ) + r2) + cz;
       add_point(points, x, y, z);
-      points->lastcol++;
     }
   }
   return points;
